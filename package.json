@@ -7,7 +7,7 @@
     "test": "karma start",
     "test:multi": "karma start  --single-run=false",
     "test:watch": "watch \"npm run test\" app/",
-    "dev": "set WEBPACK_ENV=dev&&webpack-dev-server --port 3000 --devtool eval --progress --colors --hot --content-base dist",
+    "dev": "set WEBPACK_ENV=dev&&webpack-dev-server -d --port 3000 --progress --colors --hot --content-base dist",
     "build": "set WEBPACK_ENV=build&&webpack"
   },
   "keywords": [],
